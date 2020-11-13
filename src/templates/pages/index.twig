@@ -1,0 +1,20 @@
+{% extends '../layout/defult.twig' %}
+
+{% block page %}
+        {% include '../componets/nav/nav.twig' %}
+
+
+
+
+<span id="top"></span>
+<div class="container">
+        <div class="mx-auto">
+                <img class="img-fluid p-5" src="../../assets/img/poketitle.png">
+        {% include '../componets/pokelist/pokelist.twig' %}
+
+        </div>
+
+</div>
+        <span id="bot"></span>
+        {% include '../componets/footer/footer.twig' %}
+{% endblock %}

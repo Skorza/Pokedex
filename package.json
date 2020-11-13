@@ -1,0 +1,48 @@
+{
+  "name": "build0.001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.0",
+    "browser-sync": "^2.26.13",
+    "cssloader": "^1.1.1",
+    "del": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^3.0.0",
+    "gulp-jsbeautifier": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-twig": "^1.2.0",
+    "node-notifier": "^8.0.0",
+    "postcss": "^8.1.7",
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0",
+    "webpack": "^5.4.0",
+    "webpack-notifier": "^1.8.0",
+    "webpack-stream": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "ISC"
+}

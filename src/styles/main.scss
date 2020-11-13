@@ -1,0 +1,20 @@
+@import '../templates/componets/pokelist/pokelist.scss';
+@import '../templates/componets/nav/nav.scss';
+@import '../templates/componets/footer/footer.scss';
+
+$zerowanie:0 !important;
+
+
+body{
+  margin: $zerowanie;
+  padding: $zerowanie;
+  background-image: url("../assets/img/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.row{
+  margin: $zerowanie;
+  padding: $zerowanie;
+}
